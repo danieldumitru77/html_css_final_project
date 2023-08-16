@@ -1,0 +1,81 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap');
+
+
+html{
+
+    font-size:15px;
+   
+}
+
+:root{
+
+    --black-1:#343a40;
+    --black-2:#3f3c3cb1;
+    --black-3:#495057;
+    --white-1:#e8e8e8dd; 
+    --green-1:#2b9348;
+    --green-2: #aaf683;
+    --lightGreen-1: #dde5b6;
+    --lightGreen-2:#f0ead2;
+
+}
+body{
+
+    background-color: var(--lightGreen-2);
+    overflow-x: hidden;
+
+}
+section{
+
+  padding: 100px 0;
+
+}
+@media only screen and (max-with:768px){
+
+    section{
+
+        padding: 50px 0;
+
+    }
+}
+.container{
+
+    max-width: 1300px;
+    width: 90%;
+    margin:16px auto;
+
+}
+img{
+
+    width:100%;
+    height:auto;
+    object-fit: cover;
+
+}
+h1,h2,h3,h4{
+
+    font-family:'Jost', Times, serif ;
+
+}
+P{
+
+    font-family:'Raleway',sans-serif ;
+    font-weight:400;
+    line-height: 1.4em;
+    font-size:1.9rem;
+
+}
+ a{
+
+    display: inline-block;
+    text-decoration:none;
+    
+    
+}
+li{
+
+    list-style: none;
+    
+}
+
