@@ -54,8 +54,8 @@
         top:0;
         
         right: 12px;
-        width:80%;
-        height: 100vh;
+        width:200px;
+        height: 50vh;
         background: var(--lightGreen-1);
         display: flex;
         align-items: center;
@@ -223,7 +223,7 @@ footer{
 
 /* footer responsive */
 
-@media only screen and (min-width:760px){
+@media only screen and (min-width:770px){
 
     footer{
 
@@ -293,7 +293,7 @@ footer{
         text-align: center;
     }
 
-    @media only screen and (min-width:760px){
+    @media only screen and (min-width:770px){
         
         .copyright_text {
 
@@ -302,3 +302,78 @@ footer{
         }
     }
 
+
+    /* sectiunea info contact style*/
+
+    .storeInfo_wrapper {
+
+        display: flex;
+        /*strectch - ofera elementelor aceeeasi inaltime */
+        align-items:stretch;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:1rem;
+        
+    }
+
+    .storeInfo_item {
+        
+        background-color: var(--lightGreen-1);
+        padding: 20px 30px;
+        text-align: center;
+        border-radius: 12px;
+        width:150px;
+        
+    }
+
+    .storeInfo_icon{
+
+        margin: 0 auto;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .storeInfo_title{
+        
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color:var (--black-1);
+
+    }
+
+    .storeInfo_text{
+        
+        font-size: 22px;
+        font-family: Raleway;
+        font-weight: 400;
+        color:var (--black-2);
+
+    }
+
+    @media only screen and (min-width: 770px) {
+        .storeInfo_wrapper {
+
+            gap: 32px;
+        }
+        .storeInfo_item {
+             
+            min-width: 200px;
+            padding: 35px 0;
+           
+        }
+        .storeInfo_icon {
+            
+            min-width: 47px;
+            margin-bottom: 20px;
+        }
+        .storeInfo_title {
+            font-size:1rem;
+            margin-bottom: 1rem;
+        }
+        .storeInfo__text {
+            font-size: 1.6rem;
+        }
+    }
+    
