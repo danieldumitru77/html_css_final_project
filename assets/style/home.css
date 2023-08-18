@@ -7,22 +7,19 @@
 	gap: 20px;
 }
 .hero_left_wrapper{
-    
-    max-width: 360px;
+
+	max-width: 360px;
 }
 
 .hero_img_Wrapper {
 
-    
-    max-width: 600px;
+	max-width: 600px;
 	width: 80%;
     margin: 0 auto;
 	border-radius: 10px;
-	
 
 }
 .hero_img_Wrapper img{
-
     
     border-radius: 5px;
 }
@@ -53,6 +50,7 @@
 }
 
 @media only screen and (min-width: 760px) {
+
 	.hero_wrapper {
 
 		flex-direction: row;
@@ -90,11 +88,121 @@
 	}
 }
 
-@media only screen and (max-width: 900px) {
+#restaurantSpecials {
+	padding-top: 10rem;
+}
+.restaurantSpecials_wrapper{
 
-	.hero__left,
-	.hero__right {
+  display: flex;
+  flex-direction: column;
+  gap:3rem;	
 
-		flex: 1;
+}
+.restaurantSpecials_left{
+
+	display: flex;
+	gap:16px;
+
+}
+
+.restaurantSpecials_item{
+
+	background-color: var(--lightGreen-1);
+	padding: 18px;
+	padding-top:60px;
+	border-radius: 12px;
+	width: 45%;
+
+}
+
+.restaurantSpecials_item_img{ 
+
+	margin-top: calc(-40% - 30px);
+	margin-bottom: 32px;
+	border-radius: 12px;
+	height: 150px;
+	overflow: hidden;
+	
+}
+
+.restaurantSpecials_item_img img{ 
+	object-fit:cover;
+}
+
+.restaurantSpecials_item_title{
+
+	font-size: 20px;
+	color: var(--black-1);
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.restaurantSpecials_item_price{
+
+	color: var(--green-1);
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.restaurantSpecials_item_text{
+	font-size: 22px;
+	color: var(--black-2);
+	font-weight: 500;
+}
+
+.restaurantSpecials_title{
+	font-size: 28px;
+	color: var(--black-2);
+	margin-bottom: 22px;
+}
+.restaurantSpecials_text{
+	font-size:20px;
+	color: var(--black-2);
+	font-weight: 500;
+	margin-bottom: 16px;
+
+}
+
+@media only screen and (min-width:770px){
+	#restaurantSpecials {
+		padding-top: 15rem;
+	}
+	#restaurantSpecials .container {
+		max-width: 900px;
+	}
+	.restaurantSpecials_wrapper {
+		flex-direction: row;
+	}
+	.restaurantSpecials_right {
+		flex: 2;
+	}
+	.restaurantSpecials_left {
+		flex: 3;
+		gap: 2rem;
+	}
+	.restaurantSpecials_item {
+		padding: 2rem;
+	}
+	.restaurantSpecials_item_title {
+		font-size: 2.05rem;
+		line-height: 1.4em;
+		margin-bottom: 1.5rem;
+	}
+	.restaurantSpecials_item_price {
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+	
+	.restaurantSpecials_item_text {
+		font-size: 1.6rem;
+	}
+	.restaurantSpecials_title {
+		font-size: 3.6rem;
+		margin-bottom: 1.5rem;
+	}
+	.restaurantSpecials_text {
+		font-size: 1.8rem;
+		margin-bottom: 1.5rem;
 	}
 }
