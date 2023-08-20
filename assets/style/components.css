@@ -133,7 +133,6 @@ footer{
 
 .footer_logo :hover {
 
-   transform: scale(1.1);
    border: 3px solid black;
 }
 
