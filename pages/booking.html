@@ -66,9 +66,56 @@
     </div>
 
     <!--Sfarsit navigatie-->
+    <!--booking section-->
+    <section id="form">
+        <div class="container">
+            <h3 class="form_title">Book Table</h3>
+            <div class="form_wrapper">
+                <form>
+                    <div class="form_item">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="first_Name" required>
+                    </div>
+                    <div class="form_item">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="last_Name" required>
+                    </div>
+                    <div class="form_item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form_item">
+                        <label for="tableType">Table Type</label>
+                        <select id="tableType" name="table_Type">
+                            <option selected disabled>Choose</option>
+                            <option value="small">Small for 2 persons </option>
+                            <option value="Medium">Medium for 4-6 persons </option>
+                            <option value="Large">Large for 10 persons </option>
+                          
+                        </select>
+                    </div>
+                    <div class="form_item">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form_item">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div class="form_item form_item_full">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" 
+                         rows="8" cols="40" required></textarea>
+                    </div>
+                    <button type="submit" class="button primary-button">Send</button>
+                  
+                    
+                </form>
+            </div>
+        </div> 
+    </section>
+    <!--Sfarsit booking section-->
 
-    
-    <h1>BOOKing page</h1>
 
     <!--foterul paginii-->
 
